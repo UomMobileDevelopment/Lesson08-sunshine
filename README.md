@@ -1,1 +1,1 @@
-# Lesson07-sunshine - κάντε switch to branch: initial
+# Lesson08-sunshine - εδώ θα μάθουμε γραφικές διεπαφές!

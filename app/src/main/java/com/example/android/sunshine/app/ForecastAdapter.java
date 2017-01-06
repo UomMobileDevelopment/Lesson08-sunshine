@@ -36,9 +36,6 @@ public class ForecastAdapter extends CursorAdapter {
         return 2;
     }
 
-    /*
-            Remember that these views are reused as needed.
-    */
     @Override
     public View newView(Context context, Cursor cursor, ViewGroup parent) {
         int viewType = getItemViewType(cursor.getPosition());
@@ -53,9 +50,6 @@ public class ForecastAdapter extends CursorAdapter {
         return LayoutInflater.from(context).inflate(layoutId, parent, false);
     }
 
-    /*
-        This is where we fill-in the views with the contents of the cursor.
-     */
     @Override
     public void bindView(View view, Context context, Cursor cursor) {
 
@@ -87,4 +81,6 @@ public class ForecastAdapter extends CursorAdapter {
         TextView lowView = (TextView)view.findViewById(R.id.list_item_low_textview);
         lowView.setText(Utility.formatTemperature(low,isMetric));
     }
+
+
 }

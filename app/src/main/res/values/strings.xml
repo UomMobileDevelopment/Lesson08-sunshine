@@ -36,6 +36,11 @@
         <xliff:g id="day">%1$s</xliff:g>, <xliff:g id="date">%2$s</xliff:g>
     </string>
 
+    <!--
+    Xliff = XLIFF (XML Localisation Interchange File Format)
+    https://en.wikipedia.org/wiki/XLIFF
+    -->
+
     <string name="format_temperature">
         <xliff:g id="temp">%1.0f</xliff:g>
         \u00B0
